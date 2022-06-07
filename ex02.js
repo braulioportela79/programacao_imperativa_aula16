@@ -23,6 +23,4 @@ let fatorialIf = num => {
         return num * fatorialIf(num - 1);
     };
 };
-console.log(fatorialIf(5))
-
-
+console.log(fatorialIf(5));
