@@ -13,7 +13,6 @@ let fatorialFor = num => {
     };
     console.log(fatorial);
 };
-
 fatorialFor(5);
 
 let fatorialIf = num => {
@@ -24,7 +23,6 @@ let fatorialIf = num => {
         return num * fatorialIf(num - 1);
     };
 };
-
 console.log(fatorialIf(5))
 
 

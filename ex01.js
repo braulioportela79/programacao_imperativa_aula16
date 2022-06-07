@@ -21,5 +21,4 @@ let fizzBuzz = (num1, num2, str1, str2) => {
         };
     };
 };
-
 fizzBuzz(2, 5, 'Fizz', 'Buzz');
